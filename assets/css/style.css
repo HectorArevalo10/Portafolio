@@ -1,0 +1,62 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+
+#showcase-home {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  padding: 50px;
+}
+
+#showcase-home .showcase-banner{
+  background: black;
+  color: aqua;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#showcase-home h1 {
+  padding: 30px;
+}
+
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding:10px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box a:hover img{
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
